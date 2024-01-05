@@ -48,6 +48,6 @@ public abstract class Pet {
 
     @Override
     public String toString() {
-        return String.format("%d. %s: имя: %s, дата рождения: %s ", getPetId(), getClass().getSimpleName(), name, getBirthday());
+        return String.format("%d. %s: имя: %s, дата рождения: %s , команды: %s", getPetId(), getClass().getSimpleName(), name, getBirthday(), getCommand());
     }
 }
